@@ -44,7 +44,7 @@ fun_bar() {
     tput cnorm
 }
 res1() {
-    wget "https://raw.githubusercontent.com/galat41/bkn/main/purut/menu.zip"
+    wget "https://raw.githubusercontent.com/rajaganjil93/lite/main/purut/menu.zip"
     unzip menu.zip
     chmod +x menu/*
     mv menu/* /usr/bin
